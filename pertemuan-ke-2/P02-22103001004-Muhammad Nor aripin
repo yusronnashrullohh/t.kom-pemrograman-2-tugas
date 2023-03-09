@@ -1,0 +1,29 @@
+<?php
+class Kapal{
+    // property
+    public $nama = "Tempur";
+    public $warna = "Hitam";
+    public $jumlahPenumpang = 23;
+    public $ukuran = "Besar";
+
+    // // method
+    public function menembak(){
+        echo "siap";
+    }
+
+    public function maju(){
+        return "oke";
+    }
+
+    public function mundur(){
+        return "lakasanakan";
+}
+}
+
+$kapal1 = new Kapal();
+var_dump($kapal1);
+
+// memanggil method
+echo $kapal1->menembak();
+echo $kapal1->maju();
+echo $kapql1->mundur();
