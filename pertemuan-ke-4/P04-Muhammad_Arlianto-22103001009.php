@@ -50,10 +50,8 @@ class Melon extends Cucurbitaceae{
 $Cucurbitaceae1 = new Semangka("Semangka", "Kulit Halus");
 $Cucurbitaceae2 = new Melon("Melon", "Kulit Kasar");
 
-//this echo will call MobilKonvensional for show of $nama and $merk + $liter for MobilKonvensional
-echo $Cucurbitaceae1->getData();
-// var_dump($trans2);
-//this echo will call MobilListrik for show of $nama and $merk + $liter for MobilListrik
+
+echo $Cucurbitaceae1->getData();
 echo $Cucurbitaceae2->getData();
 
 
