@@ -42,10 +42,7 @@ class Melon extends Cucurbitaceae{
     function getData()
     {
         return parent::getData() . " - {$this->kulitKasar} Melon";
-    }
-    function isiBatrei(){
-        return "Isi Batrei";
-    }
+    }
 }
 
 
